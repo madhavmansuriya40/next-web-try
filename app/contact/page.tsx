@@ -3,7 +3,7 @@
 import React, { FormEvent, useState } from "react";
 import { Meteors } from "@/components/ui/meteors";
 
-export default function page() {
+export default function Contact() {
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
 
@@ -18,9 +18,9 @@ export default function page() {
         Contact Us
       </h1>
       <p className="mt-10 text-base md:text-lg max-w-3xl mx-auto font-thin">
-        Reach out to us for any inquiries, feedback, or support. We're here to
-        help and will respond as soon as possible feedback, or support. We're
-        here to help and will respond as soon as possible.
+        Reach out to us for any inquiries, feedback, or support. We&apos;re here
+        to help and will respond as soon as possible feedback, or support.
+        We&apos;re here to help and will respond as soon as possible.
       </p>
       <form action="" onSubmit={handelSubmit}>
         <div className="mt-6 w-full">
