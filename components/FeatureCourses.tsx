@@ -31,11 +31,11 @@ export default function FeatureCourses() {
           </p>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 px-6 lg:px-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((course: Course) => (
             <div className="flex justify-center" key={course.id}>
-              <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+              <BackgroundGradient className="flex flex-wrap flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                 <div className="p-4 sm:p6 flex flex-col items-center text-center flex-grow">
                   <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                     {course.title}
